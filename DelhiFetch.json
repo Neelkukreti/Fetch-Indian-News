@@ -1,0 +1,6 @@
+
+curl https://newsapi.org/v2/top-headlines -G \
+    -d q=Delhi
+    -d sortBy=popularity
+    -d sources=google-news-in \
+    -d apiKey=eba847a8d94a4aa4a5c4bc78aeb15027
